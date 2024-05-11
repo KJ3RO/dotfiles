@@ -1,0 +1,21 @@
+# theme = "color"
+
+[editor]
+line-number = "relative"
+mouse = true
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+
+[keys.normal]
+
+[editor.indent-guides]
+render = false
+character = ""
+
+[[language]]
+name = "latex"
+config = { texlab = { build = { onSave = true, forwardSearchAfter = true, executable = "tectonic", args = ["-X","compile","%f","--synctex","--keep-logs","--keep-intermediates"] }, forwardSearch = { executable = "/Applications/Skim.app/Contents/SharedSupport/displayline", args = args = ["%l", "%p", "%f"]}, chktex = { onEdit = true } } }

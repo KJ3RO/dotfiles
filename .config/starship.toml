@@ -1,0 +1,80 @@
+# ~/.config/starship.toml
+
+right_format = """$cmd_duration"""
+
+add_newline = true
+
+format = """$os$username$directory$git_branch $character"""
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = "  "
+
+"Desktop" = "  "
+"~" = " "
+"nvim" = ""
+".config" = "󰴳 "
+
+[os]
+format = '[$symbol](bold white) '   
+disabled = false
+
+[os.symbols]
+Windows = ' '
+Arch = '󰣇'
+Ubuntu = ''
+Macos = '󰀵'
+
+[character]
+success_symbol = "[󰋇 ](blue)"
+error_symbol = "[󰒲 ](red)"
+
+[cmd_duration]
+min_time = 4
+show_milliseconds = false
+format = '󰪢 [$duration](bold yellow)'
+disabled = false
+
+
+# Shows the username
+[username]
+style_user = 'yellow bold'
+style_root = 'black bold'
+format = '[$user]($style) '
+disabled = false
+show_always = true
+
+# Shows the hostname
+[hostname]
+ssh_only = false
+format = 'on [$hostname](bold yellow) '
+disabled = false
+
+# Shows current directory
+[directory]
+truncation_length = 1
+truncation_symbol = '…/'
+# home_symbol = '󰋜 ~'
+read_only = '  '
+format = 'at [$path]($style)[$read_only](#88c1d0) '
+
+# Shows current git branch
+[git_branch]
+symbol = ' '
+format = 'via [$symbol$branch]($style)'
+truncation_length = 8
+truncation_symbol = '…'
+style = 'bold green'
+
+# Shows current git status
+# [git_status]
+# format = '([ \( $all_status$ahead_behind\)]($style) )'
+# style = 'bold green'
+# conflicted = '[ = ${count}](red) '
+# up_to_date = '[󰘽](green) '
+# untracked = '[󰋗 = ${count}](red) '
+# modified = '[󰛿 = ${count}](yellow) '
+# deleted = '[󰍶 = ${count}](red) '
+#
