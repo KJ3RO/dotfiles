@@ -1,7 +1,5 @@
 # My Rice!
 
-Package Manager: [Brew](https://brew.sh)
-<br>
 Terminal: [Kitty](https://sw.kovidgoyal.net/kitty/)
 <br>
 Application Launcher: [Raycast](https://www.raycast.com/), Rofi[](https://github.com/davatorium/rofi)
