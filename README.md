@@ -1,4 +1,4 @@
-# My Rice!
+# My MACOS Rice!
 
 Terminal: [Kitty](https://sw.kovidgoyal.net/kitty/)
 <br>
