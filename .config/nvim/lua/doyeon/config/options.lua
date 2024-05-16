@@ -1,6 +1,6 @@
 local opt = vim.opt -- for conciseness
 
-opt.clipboard:append("unnamedplus") -- use system clipboard as default register
+-- opt.clipboard:append("unnamedplus") -- use system clipboard as default register
 
 opt.scrolloff = 999
 -- line numbers

@@ -9,7 +9,7 @@ yabai -m config top_padding 14
 yabai -m config bottom_padding 14
 yabai -m config left_padding 14 
 yabai -m config right_padding 14 
-yabai -m config window_gap 8 
+yabai -m config window_gap 10
 
 # center mouse on window with focus
 yabai -m config mouse_follows_focus on
@@ -29,7 +29,7 @@ yabai -m mouse_drop_action swap
 # yabai -m config active_window_border_color 0xFFEDC2
 # yabai -m config normal_window_border_color 0xEEDAAD
 
-# borders active_color=0xff81a1c1 inactive_color=0x0fffffff width=5.0 &
+borders active_color=0xff769DDD inactive_color=0xff0B0F1E width=4.0 &
 
 yabai -m config window_opacity on
 yabai -m config active_window_opacity 1.0
