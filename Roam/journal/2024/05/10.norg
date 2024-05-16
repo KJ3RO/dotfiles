@@ -1,0 +1,59 @@
+@document.meta
+title: 10
+description: May 10th, 2024
+authors: doyeon
+categories: [
+  journal
+  APSEM
+  APRES
+]
+created: 2024-05-10T05:52:44+0900
+updated: 2024-05-11T13:47:04+0900
+version: 1.1.1
+@end
+
+* TODO
+  - (x) HOMEWORK
+  -- (x) AP Calculus BC Exam #2
+  -- (x) %TODO: Chemistry Lab Material Assignment%
+  - ( ) %TODO: Print SAT%
+  - ( ) %TODO: Ask Jung Ryun about Discord%
+  
+* Project Ideas
+  - Using D3's {https://observablehq.com/@d3/temporal-force-directed-graph?intent=fork}[Temporal Force Directed Graphs] to create an Obsidian gragh view clone
+
+* AP Seminar Journal - PAST
+** Death penalty
+   Pros: Fear, Retributive justice, Protection of society, Value of human life
+   Cons: No deterrent effect, Risk of executing innocent people, Racial and class bias, Moral concerns
+
+   Movie: The Disappearance Of Willie  Bingham .2015
+   Eye for an eye
+
+   Arguments for the death penalty:
+   Deterrence: Some argue that the death penalty deters potential murderers from committing the crime, as they fear losing their own life
+
+   Retributive justice: Others argue that the death penalty is needed to balance out the crime with the punishment, and that it reflects a natural concern of society and victims
+
+   Protection of society: Some argue that the death penalty is necessary to prevent vicious murderers from killing again, either in prison or if they should get out
+
+   Value of human life: For the most cruel and heinous crimes, offenders deserve the worst punishment under our system of law, and that is the death penalty. Any lesser punishment would undermine the value society places on protecting lives
+
+*** Arguments against the death penalty:
+   No deterrent effect: Studies show no link between the presence or absence of the death penalty and murder rates, suggesting that it does not actually deter crime
+
+   Risk of executing innocent people: There is always a risk of executing an innocent person, and some people have been executed after being convicted in grossly unfair trials, on the basis of torture-tainted evidence and with inadequate legal representation
+
+   Racial and class bias: Opponents of capital punishment say it perpetuates social injustices by disproportionately targeting people of color and people who cannot afford good attorneys
+
+   Moral concerns: Some people believe that the death penalty is morally wrong, as it involves taking a human life and goes against the value of human dignity
+
+   In conclusion, the debate over whether death penalties should exist is ongoing and complex. While some argue that the death penalty is necessary for deterrence, retributive justice, and protection of society, others argue that it has no deterrent effect, risks executing innocent people, perpetuates social injustices, and raises moral concerns.
+
+** World Wide Web
+   ~ The internet based innovation that is represented by my computational artifact is WEB 2.0. WEB 2.0 is an upgraded version of WEB 1.0 with additional features such as user interaction. This means that people using the web can interact with the client side of the application such as creating new content. The client side will interact with the server (backend) side which will allow the new information to be saved. My website, a hangman game, allows interaction with the user and the client side which will change the details of the page without refreshing the page. I made a game with words because I thought it would be a good example of what interaction works like.
+   ~ First, I learned a programming language called Typescript which is similar to Javascript, but a difference would be that Typescript is statically typed which means that we need to declare a variable with a certain type instead of using "var" every time. Next, I created a React JS App, which is a framework for Javascript, to create components, independent and reusable bits of code, in my code. Then I used HTML and CSS to style the code as seen on the website. I made a bar that hangs the man, the man, and the keyboard made with neomorphism. Then I used Typescript functions to control the styles of the different elements on the screen to make them disappear, appear, or fade depending on the situation.
+   ~ Web 2.0 refers to the second generation of the World Wide Web, characterized by user-generated content and the ability to share and collaborate in online communities. One beneficial effect of WEB 2.0 is that it revolutionized the way people communicate and share information such as its interactiveness and availability to anyone who has access to the internet. It has helped people learn actively which can help build people's knowledge quickly like codeHS. It has the potential to connect all the people around this world to actively participate in things that weren't possible before 2006. It has provided a platform for social movements that may not have had a voice in the past. Now, the internet and websites have allowed people to buy anything with ecommerce and share diverse cultures which will all lead to substantial effects on the world's economy, society, and culture. However, not all effects can be seen as good since the web isn't always reliable. More people are trying to use important websites such as bank websites to gather important information. More people are getting victimized by spam mails, stalking, and cyberbullying. The ease of sharing information and the lack of regulation has led to the spread of fake news which can have real-world consequences. In conclusion, the Web 2.0 has brought many benefits to society, economy, and culture, but it has also had its share of drawbacks.
+   ~ Websites are used to transfer private data like passwords, but not all people are aware of where and how it is shared which can lead to promatic situations. Websites also rely on networks and servers, which are vulnerable to hacking and other security threats. Therefore, people must use protection such as firewalls. Some of the websites share and store a lot of informations. The technology makes the process easier, but it might concern people about where the data is stored.
+
+** {:../../../Zettels/AP Research Ideas:}[AP Research Ideas]

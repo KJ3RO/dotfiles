@@ -1,0 +1,32 @@
+@document.meta
+title: Force Directed Graph
+description: 
+authors: doyeon
+categories: [
+  D3
+] 
+created: 2024-05-11T14:04:50+0900
+updated: 2024-05-11T14:23:11+0900
+version: 1.1.1
+@end
+
+I think this is the {https://github.com/vasturiano/react-force-graph?tab=readme-ov-file} but it might be a completely different thing that just looks similar
+- edit: It is the correct one. It has both 2D and 3D
+
+{https://en.wikipedia.org/wiki/Force-directed_graph_drawing}[Wikipedia Page of Temporal Force Directed Graphs]
+
+* Different Examples of the Force Directed Graph Provided by the Official D3 Website
+  - {https://observablehq.com/@d3/disjoint-force-directed-graph/2?intent=fork}[Disjoined Graph]
+  - {https://observablehq.com/@d3/force-directed-graph-canvas/2?intent=fork}[Canva]
+  - {https://observablehq.com/@d3/force-directed-graph-component}[Original]: It's called the Force-directed graph component and has a {https://jsfiddle.net/spiker830/07943tko/}[live] preview with code as well
+  - {https://observablehq.com/@mbostock/hello-cola}[Cola]: I think this is another version
+  - {https://observablehq.com/@d3/temporal-force-directed-graph?intent=fork}[Temporal Network]
+  -- {https://github.com/takanori-fujiwara/d3-gallery-javascript/tree/main/animation/temporal-force-directed-graph}[Source Code from Different Person]
+  - {https://observablehq.com/@nalband/temporal-force-directed-graph/2}[Temporal Network with Different UI]
+
+* Different Tutorials From the Official Website
+  - {https://observablehq.com/@d3/modifying-a-force-directed-graph}[Modification]
+
+* Nice Examples
+  - {https://codesandbox.io/p/sandbox/temporal-force-directed-graph-tox29?file=%2Fsrc%2Findex.js}
+

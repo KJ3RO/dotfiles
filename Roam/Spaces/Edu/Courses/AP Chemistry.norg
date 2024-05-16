@@ -1,0 +1,16 @@
+@document.meta
+title: AP Chemistry
+description: 
+authors: doyeon
+categories: [
+  APCHEM
+  SJA
+] 
+created: 2024-05-09T16:41:48+0900
+updated: 2024-05-11T14:26:02+0900
+version: 1.1.1
+@end
+
+* Final Project
+** {:../Zettels/Chemical Experiment Video Library Project:}[Experiment Video Library Project]
+** {:../Zettels/Podcast Project:}[Podcast Project]

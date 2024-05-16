@@ -1,0 +1,24 @@
+@document.meta
+title: pKa Experiment Data
+description: 
+authors: doyeon
+categories: [
+  APCHEM
+]
+created: 2024-05-16T16:52:56+0900
+updated: 2024-05-16T16:58:06+0900
+version: 1.1.1
+@end
+
+* First Experiment
+  - Initial pH: 3.4
+  - Final pH: 5.18
+  - 7.7 mL used
+* Second Experiment
+  - Initial pH: 4.13
+  - Final pH: 5.24
+  - 15.3 mL used
+* Thrid Experiment
+  - Initial pH: 1.66
+  - Final pH: 2.13
+  - 8 mL used

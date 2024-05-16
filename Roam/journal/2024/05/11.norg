@@ -1,0 +1,17 @@
+@document.meta
+title: 11
+description: May 11th, 2024 
+authors: doyeon
+categories: [
+  journal
+]
+created: 2024-05-11T13:46:24+0900
+updated: 2024-05-11T14:30:03+0900
+version: 1.1.1
+@end
+
+* TODO
+  - ( ) %TODO: AP Calculus Mock Exam%
+  - ( ) %TODO: Super FRQs%
+  - ( ) %TODO: Learn Next.js, SQL, and Supabase for D3 Project%
+  -- ( ) {:../../../Zettels/D3:}
