@@ -6,9 +6,10 @@ return {
     require("neorg").setup({
       load = {
         ["core.defaults"] = {},
-        ["core.concealer"] = {
+        ["core.neorgcmd"] = {},
+        ["core.autocommands"] = {
           config = {
-            icon_preset = "varied",
+            vimleavepre = true,
           },
         },
         ["core.dirman"] = {
@@ -32,6 +33,22 @@ return {
         ["core.summary"] = {
           config = {
             strategy = "default",
+          },
+        },
+        ["core.integrations.treesitter"] = {
+          config = {
+            install_parsers = true,
+            configure_parsers = true,
+          },
+        },
+        ["core.concealer"] = {
+          config = {
+            icon_preset = "varied",
+            icons = {
+              code_block = {
+                conceal = true,
+              },
+            },
           },
         },
       },
