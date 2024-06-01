@@ -29,7 +29,7 @@ yabai -m mouse_drop_action swap
 # yabai -m config active_window_border_color 0xFFEDC2
 # yabai -m config normal_window_border_color 0xEEDAAD
 
-borders active_color=0xff769DDD inactive_color=0xff0B0F1E width=4.0 &
+borders active_color=0xff668594 inactive_color=0xff2A2A38 width=4.0 &
 
 yabai -m config window_opacity on
 yabai -m config active_window_opacity 1.0

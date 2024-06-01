@@ -10,8 +10,8 @@ return {
   opts = {
     workspaces = {
       {
-        name = "Obsidian",
-        path = "~/Obsidian/",
+        name = "journal",
+        path = "~/Obsidian/Journals/",
       },
     },
 
@@ -19,7 +19,7 @@ return {
       folder = string.format("Journals/%s/%s/", os.date("%Y"), os.date("%m")),
       date_format = "%d",
       alias_format = "%Y-%m-%d",
-      template = "Cards/Templates/Daily.md",
+      template = "Templates/Daily.md",
     },
 
     completion = {
@@ -35,7 +35,7 @@ return {
     use_advanced_uri = true,
 
     templates = {
-      folder = "Cards/Templates/",
+      folder = "Templates/",
       date_format = "%Y-%m-%d",
       time_format = "%H:%M",
       substitutions = {},
@@ -47,9 +47,6 @@ return {
       checkboxes = {
         [" "] = { char = "󰄰", hl_group = "ObsidianTodo" },
         ["x"] = { char = "󰄴", hl_group = "ObsidianDone" },
-        ["!"] = { char = "", hl_group = "ObsidianUrgent" },
-        ["?"] = { char = "", hl_group = "ObsidianDelayed" },
-        ["-"] = { char = "󰩺", hl_group = "ObsidianTrash" },
       },
       bullets = { char = "•", hl_group = "ObsidianBullet" },
       external_link_icon = { char = "󰌹", hl_group = "ObsidianExtLinkIcon" },
@@ -60,9 +57,6 @@ return {
       hl_groups = {
         ObsidianTodo = { bold = true, fg = "#DDD7B7" },
         ObsidianDone = { bold = true, fg = "#769DDD" },
-        ObsidianUrgent = { bold = true, fg = "#D4313D" },
-        ObsidianDelayed = { bold = true, fg = "#FF9C29" },
-        ObsidianTrash = { bold = true, fg = "#6E9565" },
         ObsidianBullet = { bold = true, fg = "#89ddff" },
         ObsidianRefText = { underline = true, fg = "#c792ea" },
         ObsidianExtLinkIcon = { fg = "#c792ea" },

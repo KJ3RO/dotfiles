@@ -51,6 +51,15 @@ return {
             },
           },
         },
+        --   ["core.latex.renderer"] = {
+        --     config = {
+        --       conceal = true,
+        --       render_on_enter = true,
+        --     },
+        --   },
+        --   ["core.integrations.image"] = {
+        --     config = {},
+        --   },
       },
     })
 

@@ -17,9 +17,4 @@ key.set("n", "[t", function()
 end, { desc = "Previous todo comment" })
 key.set("n", "<leader>tt", ":TodoTelescope<CR>")
 
-key.set("n", "<leader>nz", ":Neorg workspace zettels<CR>")
-key.set("n", "<leader>nl", ":Neorg workspace link<CR>")
-
-key.set("n", "<localleader>s", ":Neorg mode Neorg traverse-heading<CR>")
-
 key.set("n", "<leader>e", ":Oil<CR>")

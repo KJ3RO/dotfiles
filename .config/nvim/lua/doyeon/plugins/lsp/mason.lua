@@ -25,6 +25,7 @@ return {
         "jsonls",
         "ltex",
         "marksman",
+        "clangd",
       },
       automatic_installation = true, -- not the same as ensure_installed
     })
@@ -37,6 +38,7 @@ return {
         "black", -- python formatter
         "pylint", -- python linter
         "eslint_d", -- js linter
+        "clang-format",
       },
     })
   end,
